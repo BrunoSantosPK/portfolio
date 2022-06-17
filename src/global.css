@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+/* Reset de CSS */
+* { margin: 0; padding: 0; outline: 0; box-sizing: border-box; }
+body { font: 400 14px Ubuntu, sans-serif; background: #202125; -webkit-font-smoothing: antialiased; color: #F8F8F6; display: flex; justify-content: center; }
+
+/* Estilização de layout */
+.site { display: flex; flex-direction: column; width: 100vw; padding: 0px 20px; min-height: 100vh; justify-content: space-between; }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .site { padding: 0px 10px; }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .site { max-width: 900px; }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .site { max-width: 1024px; }
+}

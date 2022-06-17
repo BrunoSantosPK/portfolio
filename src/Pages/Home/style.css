@@ -1,0 +1,72 @@
+.description-home { display: flex; min-height: 70vh; }
+.description-home .col-1 { display: flex; flex-direction: column; justify-content: flex-start; }
+.description-home .col-2 { display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end; }
+.description-home .col-1 h4 { margin-top: 35px; }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Textos */
+    .description-home .col-1 h1 { font-size: 30px; }
+    .description-home .col-1 h4 { font-size: 16px; }
+    
+
+    /* Colunas */
+    .description-home { flex-direction: column; justify-content: space-between;  }
+    .description-home .col-1 { width: 100%; }
+    .description-home .col-2 { width: 100%; }
+    .description-home .col-2 img { width: 250px; }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* Textos */
+    .description-home .col-1 h1 { font-size: 50px; }
+    .description-home .col-1 h4 { font-size: 20px; }
+
+    /* Colunas */
+    .description-home { flex-direction: column; justify-content: space-between; }
+    .description-home .col-1 { width: 100%; }
+    .description-home .col-2 { width: 100%; }
+    .description-home .col-2 img { width: 300px; }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* Textos */
+    .description-home .col-1 h1 { font-size: 45px; }
+    .description-home .col-1 h4 { font-size: 18px; }
+    
+
+    /* Colunas */
+    .description-home { flex-direction: row; }
+    .description-home .col-1 { width: 50%; }
+    .description-home .col-2 { width: 50%; }
+    .description-home .col-2 img { width: 300px; }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* Textos */
+    .description-home .col-1 h1 { font-size: 50px; }
+    .description-home .col-1 h4 { font-size: 20px; }
+    
+    /* Colunas */
+    .description-home { flex-direction: row; }
+    .description-home .col-1 { width: 50%; }
+    .description-home .col-2 { width: 50%; }
+    .description-home .col-2 img { width: 350px; }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* Textos */
+    .description-home .col-1 h1 { font-size: 58px; }
+    .description-home .col-1 h4 { font-size: 23px; }
+
+    /* Colunas */
+    .description-home { flex-direction: row; }
+    .description-home .col-1 { width: 50%; }
+    .description-home .col-2 { width: 50%; }
+    .description-home .col-2 img { width: 400px; }
+}

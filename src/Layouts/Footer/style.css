@@ -1,0 +1,3 @@
+.content-footer { display: flex; flex-direction: row; justify-content: flex-start; margin: 20px 0px; }
+.content-footer .image-footer { width: 30px; margin: 10px; cursor: pointer; transition: filter 0.5s; }
+.content-footer .image-footer:hover { filter: brightness(150%); }

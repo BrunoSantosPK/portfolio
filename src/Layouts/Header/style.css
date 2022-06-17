@@ -1,0 +1,10 @@
+.content-header { display: flex; flex-direction: row; justify-content: flex-end; }
+.item-header { margin: 10px 20px; font-size: 20px; padding-bottom: 3px; }
+.item-header-select { color: #00FFAD; border-bottom: 2px solid #00FFAD; }
+.item-header:hover { cursor: pointer; color: #00FFAD; }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .item-header { font-size: 15px; margin: 10px; }
+}
