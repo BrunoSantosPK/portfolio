@@ -4,6 +4,7 @@
 /* Gerenciamento das imagens */
 .area-project .area-project-figures { display: flex; justify-content: center; align-items: center; }
 .area-project .area-project-figures img { max-width: 80%; max-height: 300px; }
+.area-project .area-project-figures .hidden { display: none; }
 
 /* Gerenciamento de textos */
 .area-project .area-project-text p { font-size: 18px; }
