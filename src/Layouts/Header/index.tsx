@@ -12,12 +12,12 @@ export default function Header({ selectPage }: Props) {
     const navigate = useNavigate();
     function navigation(page: Pages) {
         // Converte a página para o nome da rota
-        const route = (page == "Home") ? "" : page.toLowerCase();
+        const route = (page === "Home") ? "" : page.toLowerCase();
         navigate(`/${route}`);
     }
 
     function getClassItem(page: Pages) {
-        return (selectPage == page) ? "item-header item-header-select " : "item-header"
+        return (selectPage === page) ? "item-header item-header-select " : "item-header"
     }
 
     return (

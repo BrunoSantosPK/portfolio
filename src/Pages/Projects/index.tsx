@@ -6,9 +6,9 @@ import "./style.css";
 import "../../global.css";
 
 import prioreScreen from "../../Assets/PrioreWeb/Screen-02.png";
-import archerScreen from "../../Assets/Archer/Tela-02.jpg";
-import cincopqScreen from "../../Assets/5PQs/Tela-02.png";
-import massaMolarScreen from "../../Assets/MassaMolar/Tela-01.png";
+import archerScreen from "../../Assets/Archer/show.png";
+import cincopqScreen from "../../Assets/5PQs/show.png";
+import massaMolarScreen from "../../Assets/MassaMolar/show.png";
 import vaporizaScreen from "../../Assets/Vaporiza/Tela-07.png";
 
 export default function Projects() {
